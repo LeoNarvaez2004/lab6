@@ -23,3 +23,4 @@ test('Fibonacci de 0 debe ser 0', () => {
 test('Fibonacci de -1 debe ser undefined', () => {
     expect(fibo(-1)).toBe(undefined);
 });
+
