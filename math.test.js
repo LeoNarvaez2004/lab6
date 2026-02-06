@@ -1,5 +1,4 @@
-const fact = require('./math');
-const fibo = require('./math');
+const { factorial: fact, fibonacci: fibo } = require('./math');
 test('Factorial de 5 debe ser 120', () => {
     expect(fact(5)).toBe(120);
 });

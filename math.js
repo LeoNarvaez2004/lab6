@@ -10,7 +10,6 @@ function factorial(n) {
     }
     return result;
 }
-module.exports = factorial;
 
 function fibonacci(n) {
     if (n < 0) return undefined;
@@ -24,4 +23,5 @@ function fibonacci(n) {
     }
     return b;
 }
-module.exports = fibonacci;
+
+module.exports = { factorial, fibonacci };
